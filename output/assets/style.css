@@ -1,0 +1,121 @@
+  @import url('https://fonts.googleapis.com/css2?family=Recursive:wght@300;400;500;600;900&family=Roboto&display=swap');
+
+
+  .card-body {
+      background-color: silver;
+      background-size: 100px 50px;
+  }
+
+  .card-header {
+      text-align: center;
+      background-color: grey;
+      -webkit-text-stroke: 1px black;
+      color: white;
+      border-radius: 0;
+      border-bottom: 3px solid white;
+      box-shadow: 0 20px 20px -20px #333;
+  }
+
+  .card {
+      border: 2px solid white;
+      margin: 1rem;
+      box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+  }
+
+  .jumbotron {
+      background-color: grey;
+      color: white;
+      text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9,
+          0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1),
+          0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2),
+          0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2),
+          0 20px 20px rgba(0, 0, 0, 0.15);
+      border-radius: 0;
+      border-bottom: 10px solid white;
+      box-shadow: 0 20px 20px -20px #333;
+      margin-bottom: 3rem !important;
+      text-transform: uppercase;
+  }
+
+  .jumbotron h1 {
+      font-size: 5.5rem;
+  }
+
+  .fas {
+      -webkit-text-stroke: 1px black;
+      color: white;
+      text-shadow: 3px 3px 0 #666, -1px -1px 0 #666, 1px -1px 0 #666,
+          -1px 1px 0 #666, 1px 1px 0 #666;
+  }
+
+  a {
+      color: black;
+  }
+
+  @media screen and (max-width: 640px) {
+
+
+      .justify-content-center {
+          flex-direction: column !important;
+      }
+  }
+
+
+
+  body {
+      font-family: 'Recursive', sans-serif;
+  }
+
+  h1 {
+      font-weight: 900;
+      color: white;
+  }
+
+  h2 {
+      font-size: 1.7rem;
+      margin-top: 5px;
+      color: #052d80;
+  }
+
+  h3 {
+      font-weight: 400;
+      font-size: 16px;
+      text-transform: uppercase;
+      color: grey;
+  }
+
+  .list-group-item {
+      font-family: 'Roboto', sans-serif;
+      border: none;
+  }
+
+  .jumbotron {
+      background: rgb(37, 140, 255);
+      background: -moz-linear-gradient(0deg, rgba(37, 140, 255, 1) 0%, rgba(47, 213, 250, 1) 100%);
+      background: -webkit-linear-gradient(0deg, rgba(37, 140, 255, 1) 0%, rgba(47, 213, 250, 1) 100%);
+      background: linear-gradient(0deg, rgba(37, 140, 255, 1) 0%, rgba(47, 213, 250, 1) 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#258cff", endColorstr="#2fd5fa", GradientType=1);
+
+      box-shadow: 0px -13px 20px -10px rgba(0, 0, 0, 0.3) inset
+  }
+
+  .card-header {
+      text-align: center;
+      background-color: white;
+  }
+
+  .employee-card {
+      background-color: #fff;
+      -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.10);
+      -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.10);
+      box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.10);
+  }
+
+  .list-item {
+      font-family: 'Recursive', sans-serif;
+      font-weight: 600;
+  }
+
+  .list-group {
+      text-align: center;
+  }
